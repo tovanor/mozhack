@@ -1,3 +1,6 @@
+body {
+	background-color:#3487c8;
+}
 #wrapper {
 	background-color:#3487c8;
 	height:100%;
@@ -8,6 +11,9 @@
 	height:250px;
 	width:inherit;
 	display:block;
+	background-image:url('images/grad.png');
+	background-repeat:repeat-x;
+	background-position: 0 bottom;
 }
 #masthead {
 	height:250px;
@@ -22,16 +28,16 @@
 	height:50px;
 	width:100px;
 	float:right;
-	padding:20px;
+	padding:30px;
 }
 #url_submit {
 	background-color:#2f7bb6;
-	height:150px;
+	height:auto;
 	width:150px;
 	float:right;
 	padding:20px;
 	border-radius:8px;
-	margin-top:50px;
+	margin-top:10px;
 }
 #feed_content {
 	background-color:#2f7bb6;
@@ -45,11 +51,16 @@
 	float:left;
 	padding-left:30px;
 }
+#subscriptions h5 {
+	color:#ffffff;
+	margin-bottom:10px;
+}
 .site_name {
 	background-color:#d2d2d2;
-	height:40px;
+	height:30px;
 	width:260px;
-    border: 3px solid #ffffff;	
+    border: 3px solid #ffffff;
+    padding: 10px 0 0 10px;	
 }
 #articles {
 	background-color:#ffffff;
@@ -58,7 +69,7 @@
 	float:left;
 	min-width:700px;
 	border:3px solid #ffffff;
-	padding:10px;
+	padding: 0 10px 10px;
 }
 .article_item {
     background-color:#e3e3e3;
@@ -67,6 +78,15 @@
 	margin-top:3px;
 	border-radius: 8px 8px;
 	padding:5px;
+}
+.article_text {
+	float:left;
+	padding:10px;
+}
+.vote {
+	width:40px;
+	height:160px;
+	float:left;
 }
 .vote-up {
 	background-color:#d2d2d2;
@@ -78,6 +98,7 @@
 	border-radius: 5px 5px;
 	padding:5px;
 	background-position: 50%;
+	margin-top:5px;
 	
 }
 .vote-down {
@@ -90,7 +111,7 @@
 	border-radius: 5px 5px;
 	padding:5px;
 	background-position: 50%;
-	margin:0 5px;
+	margin:10px 0 0;
 }
 #footer {
 	height:50px;
@@ -110,6 +131,10 @@ h5 {
 	line-height:1em;
 	margin: 5px 5px 0;
 	color:#333333;
+}
+h4 {
+	font-size:1.5em;
+	margin:0 auto;
 }
 h3 {
 	color:#ffffff;
