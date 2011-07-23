@@ -1,77 +1,84 @@
 #wrapper {
-	background-color:#780200;
+	background-color:#3487c8;
 	height:100%;
 	width:100%;
 	margin: 0 auto;
 }
 #header {
-	background-color:#3487c8;
 	height:250px;
 	width:inherit;
 	display:block;
 }
 #masthead {
-	background-color:#556665;
 	height:250px;
 	width:50%;
 	float:left;
 }
 #navigation {
-	background-color:#efefef;
 	height:30px;
 	width:100px;
 	float:right;
 }
 #url_submit {
-	background-color:#4f4f4f;
+	background-color:#2f7bb6;
 	height:150px;
 	width:150px;
 	float:right;
 }
 #feed_content {
-	background-color:#000000;
+	background-color:#2f7bb6;
 	height:900px;
 	width:auto;
 }
 #subscriptions {
-	background-color:#2340a0;
 	height:300px;
 	width:260px;
 	float:left;
 }
 .site_name {
-	background-color:#792509;
+	background-color:#d2d2d2;
 	height:40px;
 	width:260px;
 }
 #articles {
-	background-color:#788780;
+	background-color:#ffffff;
 	height:auto;
 	width:auto;
 	float:left;
 	min-width:700px;
+	border:3px solid #ffffff;
 }
 .article_item {
-    background-color:#888880;
+    background-color:#d2d2d2;
 	width:inherit;
 	height:160px;
+	margin-top:3px;
+	border-radius: 8px 8px;
 }
 .vote-up {
-	background-color:#444444;
+	background-color:#7a7a7a;
 	background-image:url('images/thumb_up.png');
 	width:30px;
 	height:30px;
 	float:left;
+	background-repeat:no-repeat;
+	border-radius: 5px 5px;
+	padding:5px;
+	background-position: 50%;
+	
 }
 .vote-down {
-	background-color:#444444;
+	background-color:#7a7a7a;
 	width:30px;
 	height:30px;
 	float:left;
 	background-image:url('images/thumb_down.png');
+	background-repeat:no-repeat;
+	border-radius: 5px 5px;
+	padding:5px;
+	background-position: 50%;
 }
 #footer {
-	background-color:#c34530;
 	height:50px;
 	width:100%;
 	float:left;
