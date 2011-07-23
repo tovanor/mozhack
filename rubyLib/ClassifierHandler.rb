@@ -13,7 +13,9 @@ module ClassifierHandler
     m = SnapshotMadeleine.new(name) {
       Classifier::Bayes.new 'Interesting', 'Uninteresting'
     }
-    m.take_snapshot
+    m.take_snapshot 
+    logfile = File.new("ClassifierLog.txt", "a")
+    logfile.write("Madeleine should have just created a folder called " + name + " \n")
     name
   end
   
