@@ -13,32 +13,43 @@
 	height:250px;
 	width:50%;
 	float:left;
+	padding-left:30px;
+}
+#masthead img {
+	padding-top:70px;
 }
 #navigation {
-	height:30px;
+	height:50px;
 	width:100px;
 	float:right;
+	padding:20px;
 }
 #url_submit {
 	background-color:#2f7bb6;
 	height:150px;
 	width:150px;
 	float:right;
+	padding:20px;
+	border-radius:8px;
+	margin-top:50px;
 }
 #feed_content {
 	background-color:#2f7bb6;
 	height:900px;
 	width:auto;
+	padding: 10px 0 40px 0;
 }
 #subscriptions {
 	height:300px;
 	width:260px;
 	float:left;
+	padding-left:30px;
 }
 .site_name {
 	background-color:#d2d2d2;
 	height:40px;
 	width:260px;
+    border: 3px solid #ffffff;	
 }
 #articles {
 	background-color:#ffffff;
@@ -47,16 +58,18 @@
 	float:left;
 	min-width:700px;
 	border:3px solid #ffffff;
+	padding:10px;
 }
 .article_item {
-    background-color:#d2d2d2;
+    background-color:#e3e3e3;
 	width:inherit;
 	height:160px;
 	margin-top:3px;
 	border-radius: 8px 8px;
+	padding:5px;
 }
 .vote-up {
-	background-color:#7a7a7a;
+	background-color:#d2d2d2;
 	background-image:url('images/thumb_up.png');
 	width:30px;
 	height:30px;
@@ -68,7 +81,7 @@
 	
 }
 .vote-down {
-	background-color:#7a7a7a;
+	background-color:#d2d2d2;
 	width:30px;
 	height:30px;
 	float:left;
@@ -77,13 +90,37 @@
 	border-radius: 5px 5px;
 	padding:5px;
 	background-position: 50%;
+	margin:0 5px;
 }
 #footer {
 	height:50px;
 	width:100%;
 	float:left;
+	background-color:#3487c8;
+	padding:15px 30px;
 }
 /*typography*/
-body, h1, h2, h3, h4, h5, p, a{
+body, h1, h2, h3,h6, p, a{
 	font-family:Helvetica, Arial, sans-serif;
+	color:#333333;
+}
+h5 {
+	font-family:Rockwell, Trebuchet MS, Helvetica, sans-serif;
+	font-size:2em;
+	line-height:1em;
+	margin: 5px 5px 0;
+	color:#333333;
+}
+h3 {
+	color:#ffffff;
+	font-weight:normal;
+	font-style:italic;
+	
+}
+a:link {
+    text-decoration:none;
+}
+a:hover {
+	color:#ffffff;
+	text-decoration:underline;
 }
