@@ -35,7 +35,7 @@ module ClassifierHandler
 
   def ClassifierHandler.classify(text, name)
     m = SnapshotMadeleine.new name
-    if  "Interesting".eql?(m.system.classify text) then 1 else 0 end
+    if  "Interesting".eql?(m.system.classify text) then "true" else "false" end
   end
 
 
