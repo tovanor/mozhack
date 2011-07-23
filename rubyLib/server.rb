@@ -24,7 +24,6 @@ end
 post '/classify' do
   url = params[:url]
   user = params[:username]
-  response = ClassifierHandler.classifyUrl(url,user)
-  echo response
-  response
+  ClassifierHandler.classifyUrl(url,user)
+
 end
